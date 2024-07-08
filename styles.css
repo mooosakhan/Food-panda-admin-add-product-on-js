@@ -1,0 +1,139 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color:  #e676a5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    margin: 0;
+    padding: 1em;
+    box-sizing: border-box;
+    /* overflow-y: hidden; */
+    color: #ccc;
+}
+
+.container {
+    display: block;
+    background-color: #e676a5;
+    padding: 2em;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 700px;
+    box-sizing: border-box;
+    color: #ccc;
+}
+
+.container_signup{
+    background-color: #fff;
+       color: #e676a5;
+        padding: 2em;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+        width: 100%;
+        max-width: 700px;
+        box-sizing: border-box;
+        margin-top: 100px;
+}
+
+h2 {
+    margin-bottom: 1em;
+    text-align: center;
+    font-size: 2em;
+    color: #e676a5;
+}
+
+form input,
+form select {
+    display: block;
+    width: 100%;
+    padding: 0.75em;
+    margin-bottom: 1.5em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 1em;
+    transition: border-color 0.3s;
+}
+
+form input:focus,
+form select:focus {
+    border-color: #f45b9b;
+    outline: none;
+}
+
+form button {
+    width: 100%;
+    padding: 0.75em;
+    background-color: #f45b9b;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.25em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #f3026e;
+}
+
+.hidden {
+    display: none;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    background: #f9f9f9;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+ul li img {
+    max-width: 100vh;
+    border-radius: 5px;
+    margin-right: 15px;
+}
+
+ul li div {
+    flex: 1;
+}
+
+ul li h3 {
+    margin: 0;
+    font-size: 1.25em;
+    color: #333;
+}
+
+ul li p {
+    margin: 0.5em 0;
+    color: #666;
+}
+
+ul li button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 0.5em 1em;
+    font-size: 0.775em;
+    transition: background-color 0.3s ease;
+    
+}
+
+ul li button:hover {
+    background-color: #555;
+}
+
+
